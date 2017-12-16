@@ -50,7 +50,6 @@ public class CLI extends Observable implements Runnable {
 					 }
 					 input = cin.next();
 					 inputArray = (input.substring(0, input.length()-1)).split(" ");
-					 //inputArray = cin.next().split(" ");
 					 if(inputArray.length == 2){
 						 switch(inputArray[0]){
 						 case STOP: 
@@ -135,7 +134,6 @@ public class CLI extends Observable implements Runnable {
 				write("not valid");
 				input = cin.next();
 				input = input.substring(0, input.length()-1);
-				//inputArray = (input.substring(0, input.length()-2)).split(" ");
 			}
 			if(input.equals(START)) {
 				write(input);
