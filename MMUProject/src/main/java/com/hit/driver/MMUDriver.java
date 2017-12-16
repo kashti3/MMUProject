@@ -5,7 +5,7 @@ import com.hit.model.MMUModel;
 import com.hit.view.MMUView;
 
 public class MMUDriver {
-	
+	//add comment
 	private static final String configuration = "src\\main\\resources\\com\\hit\\config\\Configuration.json";
 	public static void main(String[] args ){
 		/**
